@@ -11,6 +11,7 @@ public class lab03 {
 
 		System.out.println("Thể tích của khối lập phương = " + Math.pow(a, 3));
 
-		Scanner.close();
+		scanner.close();
+
 	}
 }
