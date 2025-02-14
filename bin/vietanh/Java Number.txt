@@ -1,0 +1,39 @@
+1.  Java Number được chia thành 2 nhóm:
+https://www.w3schools.com/java/java_data_types.asp
+- Integer Types: lưu trữ số nguyên, bao gồm: byte, short, int và long 
++ byte: 
+	- size: 1 bytes 
+	- Lưu trữ từ -128 đến 127
+	- VD: + byte a = 100; // true
+	 	   + byte a = 1000; // false
++ short: 
+	- size: 2 bytes
+	- Lưu trữ từ 	-32,768 to 32,767 
+	- VD: + short a = 1000; // true	
+		   + short a = 50,000 // false
++ int 
+	- size: 4 bytes 
+	- Lưu trữ data vừa đến lớn  => THƯỜNG ĐƯỢC SỬ DỤNG
++ long 
+	- size: 8 bytes 
+	- Lưu trữ data quá lớn 
+
+- Float point types: lưu trữ số thực, bao gồm: float, double
+	+ float: 
+		- float myNum = 5. 75f
+		System.out.prinLn(myNum);
+	+double
+		- double myNum = 19.99d
+		System.out.printLn(myNum);
+
+	=> Nếu không có ký tự "f/d" ở cuối biến số thì Java sẽ coi đó là biến "double"
+
+2. Boolen types: Trả về "TRUE" OR "FALSE"
+
+3. Characters:
+	- Char:
+		+ Được dùng để lưu trữ "single character"
+		+ VD: char myGrade = 'B';
+	- String:
+		* Lưu ý: Chữ S viết hoa, khác biệt với các kiểu dữ liệu khác (IMPORTANT)
+		VD: String greeting = "Hello world";
