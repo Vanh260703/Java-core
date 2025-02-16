@@ -1,0 +1,7 @@
+								ArrayList là gì ?
+1. Định nghĩa
+2. Các method hay dùng
+	+ add: Thêm phần tử vào cuối
+	+ remove: xóa
+	+ clear: xóa tất cả
+	+ get: truy xuất phần tử tại vị trí

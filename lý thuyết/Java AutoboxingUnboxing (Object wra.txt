@@ -1,0 +1,15 @@
+					Java Autoboxing/Unboxing (Object wrapper class)
+
+	- Java là OOP ( lập trình hướng đối tượng), và đa phần các công cụ hỗ trợ "Object" và
+	không hỗ trợ primitive type
+	
+	=> Cần có một giải pháp để convert "primitive type" => "non-primitive-type"
+	=> object wrapper class ra đời
+
+	boolean, byte, short, char, int, long, float, double
+	=> được convert thành:
+	Boolean, Byte, Short, Character, Integer, Long, Float, Double
+
+	Tạo wrapper class:
+	Interger object = new Interger(1); // phải có keyword new
+	=> convert ngược lại: int val = object.intValue();

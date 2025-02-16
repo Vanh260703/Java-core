@@ -1,0 +1,12 @@
+Java Generics (Basic)
+
+1. Generic là gì ?
+
+	Là cú pháp được giới thiệu vào v5 của Java, giúp "cải thiện chất lượng" của code
+
+	ArrayList<Integer> a = ... // <Integer>  là cú pháp generic
+	ArrayList<String> b = ... // <String> là cú pháp generic
+
+	List list = new ArrayList();
+	list.add("hello");
+	String s = (String) list.get(0);

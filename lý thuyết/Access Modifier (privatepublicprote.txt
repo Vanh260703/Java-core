@@ -1,0 +1,16 @@
+													Access Modifier (private/public/protected)
+
+
+	* https://stackoverflow.com/questions/215497/what-is-the-difference-between-public-protected-package-private-and-private-in *
+1. Khái niệm package 
+ 	package === folder
+2. Access Modifier (Quyền truy cập, sửa đổi)
+	- Private: Chỉ được sử dụng trong nội bộ class
+	
+	- Public: Công khai hoàn toàn (100%)
+	-default: Là public đối với class trong cùng package. Là private khi khác package
+
+	- Protected: Được sử dụng với lớp cha/con (tính chất kế thừa)
+
+	=> Public và Private là 2 thuộc tính được sử dụng nhiều nhất (*IMPORTANT*)
+

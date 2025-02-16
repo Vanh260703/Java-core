@@ -1,0 +1,26 @@
+Java Operator( Toán tử ):
+	1. Phép "+":
+		VD: int a = 5;
+			int b = 10;
+			int c = a + b; //15
+
+	2. Phép "-":
+		VD: int a = 5;
+			int b = 10;
+			int c = a - b; // -5
+	3. Phép "*":
+		VD: int a = 5;
+			int b = 10;
+			int c = a * b; //50
+
+	4. Phép "/":
+		VD: int a = 5;
+			int b = 10;
+			int c = a / b; // 0.5
+	5. Phép "%" (Chia lấy dư):
+		VD: int a = 10;
+			int b = 4;
+			int c = a / b; // 2
+Java Assignment Operator:
+	VD: int x = 10;	
+		x += 5// x= x + 5  //15

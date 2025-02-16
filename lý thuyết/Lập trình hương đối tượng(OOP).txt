@@ -1,0 +1,42 @@
+Lập trình hương đối tượng(OOP): Object-Oriented Programming 
+
+- Lợi thế: 
+	+ Cấu trúc rõ ràng
+	+ Tái sử dụng code cao => dễ dàng maintain( bảo trì ), modify(sửa đổi) và debug(fix bug)
+	+ Giải quyết các bài toán phức tạp
+
+- OOP là cách chúng ta mô phỏng thế giới thực tế ( real world ) vào chương trình (program) máy tính   (*IMPORTANT*)
+- Tất cả các "ĐỐI TƯỢNG" tham gia vào chương trình chính là những thành phần chủ chốt.
+
+* Khái niệm Class và Object *
+ 	Đối tượng tổng quát được gọi là Class (Lớp), còn mỗi sinh viên cũ thể gọi là Object (đối tượng)
+
+	VD:
+		class SinhVien gồm:
+	
+	- Thuộc tính (đặc điểm)
+		+ Tên
+		+ Mã số sinh viên
+	- Hành vi: 	
+		+ ăn/ngủ/nghỉ/ôn thi
+	=> Để có tính tái sử dụng cao, OOP chỉ định nghĩa tổng quát, muốn chi tiết => cta tự tạo ra
+	VD: Để tạo ra sinh viên A thì:
+		+ gán Tên = A
+		+ gán Mã số sinh viên  = 1234
+	Tương tự vậy, tạo ra sinh viên B:
+		+ gán Tên = B
+		+ gán Mã số sinh viên  = 1235
+	...
+KHÁI NIỆM 
+	- Class chính là "đối tượng tổng quát" của real-world được mô phỏng
+	- Object là các thực tế chi tiết của class đấy
+
+-Class Attributes (Thuộc tính của Class)
+	+ Attributes/Fields là các biến dùng để thể hiện giá trị cho class
+		=> Thường được khai báo bên trong class (đầu hàm)
+	+ Không giới hạn số lượng thuộc tính của 1 class
+	+ Để truy cập/sửa đổi => sử dụng object.attribte 
+	
+	+ Tên thuộc tính là danh từ và viết bằng camelCase
+
+ 
